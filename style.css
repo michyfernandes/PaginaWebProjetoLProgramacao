@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+html * {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  background-image: url("computer.jpg");
+  background-color: #EAFFFF;
+  font-family: 'Roboto', sans-serif;
+  color: #384242;
+}
+
+h1 {
+  background-color: #9ED2FF;
+  border: 2px rounded #384242;
+  border-radius: 10px;
+  border-style: outset;
+  font-size: 30px;
+  color: #384242;
+  padding: 30px;
+  text-align: center;
+}
+
+#montagemcapa {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.cordefundo {
+  background-color: #EAFFFF;
+}
+
+#capa {
+  background-color: #EAFFFF;
+  border: 2px rounded #384242;
+  border-radius: 10px;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px orange;
+  color: #384242;
+  padding: 30px;
+  text-align: center;
+}
+
+nav > a {
+  color: #384242;
+  font-size: 40px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+  transition: all 0.3s;
+}
+nav > a:hover {
+  background-color: #9ED2FF;
+  border-radius: 10px;
+  border-style: none;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  h2 {
+    border: 2px rounded #384242;
+    border-radius: 10px;
+    background-color: #C3E6E6;
+    font-size: 25px;
+    color: #384242;
+    padding: 15px;
+    text-align: center;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 150%;
+  }
+
+div {
+  background-image: image ("capa.jpg");
+  position: center;
+  border-radius: 30px;
+}
+
+.fundotexto {
+  background-color: #9ED2FF;
+  border: 2px rounded #384242;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0px 5px;
+}
+
+.fundotexto2 {
+  background-color: #9ED2FF;
+  border: 2px rounded #FFE6AB;
+  border-radius: 10px;
+  border-style: outset;
+  padding: 15px;
+  margin: 30px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 22px;
+}
+
+.grid-item {
+  background-color: #FCD8CD;
+  border-radius: 8px;
+  border-style: outset;
+  color: #424242;
+  padding: 32px;
+}
