@@ -12,13 +12,32 @@ body {
   color: #384242;
 }
 
+footer{
+  background-color: #a0e6ff;
+  color: #384242;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px
+}
+
+.container {
+    max-width: 75vw;
+    margin: 22px auto;
+}
+
+.container2 {
+  max-width: 65vw;
+  margin: 22px auto;
+}
+
 h1 {
-  background-color: #9ED2FF;
+  background-color: #a0e6ff;
   border: 2px rounded #384242;
   border-radius: 10px;
   border-style: outset;
-  font-size: 30px;
+  font-size: 35px;
   color: #384242;
+  text-shadow: 2px 2px 5px orange;
   padding: 30px;
   text-align: center;
 }
@@ -45,15 +64,15 @@ h1 {
 
 nav > a {
   color: #384242;
-  font-size: 40px;
+  font-size: 20px;
   padding: 15px 30px;
   text-decoration: none;
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px 5px #ff8d14;
   text-align: center;
   transition: all 0.3s;
 }
 nav > a:hover {
-  background-color: #9ED2FF;
+  background-color: #C3E6E6;
   border-radius: 10px;
   border-style: none;
 }
@@ -67,7 +86,7 @@ nav {
     border: 2px rounded #384242;
     border-radius: 10px;
     background-color: #C3E6E6;
-    font-size: 25px;
+    font-size: 20px;
     color: #384242;
     padding: 15px;
     text-align: center;
@@ -89,15 +108,15 @@ div {
 }
 
 .fundotexto {
-  background-color: #9ED2FF;
+  background-color: #a0e6ff;
   border: 2px rounded #384242;
   border-radius: 10px;
-  padding: 20px;
+  padding: 18px;
   margin: 0px 5px;
 }
 
 .fundotexto2 {
-  background-color: #9ED2FF;
+  background-color: #ffb365;
   border: 2px rounded #FFE6AB;
   border-radius: 10px;
   border-style: outset;
@@ -107,13 +126,34 @@ div {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 22px;
+  grid-gap: 18px;
 }
 
-.grid-item {
-  background-color: #FCD8CD;
+.grid-item2 {
+  background-color: #a0e6ff;
   border-radius: 8px;
   border-style: outset;
   color: #424242;
   padding: 32px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.grid-item {
+  background-color: #a0e6ff;
+  border-radius: 8px;
+  border-style: outset;
+  color: #424242;
+  padding: 25px;
+}
+
+.gridfoto {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: 300px;
+}
+
+
+.grid-item2 img {
+object-fit: cover;
 }
