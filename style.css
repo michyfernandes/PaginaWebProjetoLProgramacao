@@ -60,7 +60,7 @@ h1 {
   color: #384242;
   padding: 30px;
   text-align: center;
-}
+  }
 
 nav > a {
   color: #384242;
@@ -72,7 +72,7 @@ nav > a {
   transition: all 0.3s;
 }
 nav > a:hover {
-  background-color: #C3E6E6;
+  background-color: #a0e6ff;
   border-radius: 10px;
   border-style: none;
 }
@@ -137,6 +137,8 @@ div {
   padding: 32px;
   height: 500px;
   overflow: hidden;
+  align-items: center;
+  text-align: center;
 }
 
 .grid-item {
